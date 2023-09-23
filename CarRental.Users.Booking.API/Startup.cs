@@ -1,6 +1,7 @@
 ﻿using System;
 using Arch.EntityFrameworkCore.UnitOfWork;
 using CarRental.Users.Booking.API.Data;
+using CarRental.Users.Booking.API.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.Users.Booking.API
@@ -18,6 +19,8 @@ namespace CarRental.Users.Booking.API
 
             return services;
         }
+
+        
     }
 }
 

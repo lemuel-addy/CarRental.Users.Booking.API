@@ -13,7 +13,9 @@ namespace CarRental.Users.Booking.API.Models
                 user.Username,
                 user.Contacts,
                 user.Email,
-                user.Password
+                user.Password,
+                user.Role
+
                 );
         }
 	}

@@ -64,3 +64,17 @@
 /Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
 /Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/AutoMapper.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Pipelines.Sockets.Unofficial.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/Refit.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/StackExchange.Redis.dll
+/Users/lemueladdy/Projects/CarRental.Users.Booking.API/CarRental.Users.Booking.API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
