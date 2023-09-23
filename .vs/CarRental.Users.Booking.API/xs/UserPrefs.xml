@@ -1,16 +1,50 @@
 ﻿<Properties StartupConfiguration="{7684BE04-7212-4F30-850B-0F35C7F7901C}|https">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarRental.Users.Booking.API/Controllers/UserBookingController.cs">
+    <Files>
+      <File FileName="CarRental.Users.Booking.API/Program.cs" Line="22" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Controllers/UserBookingController.cs" Line="74" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Services/UserAccountService.cs" Line="36" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Models/User.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Models/Role.cs" Line="7" Column="9" />
+      <File FileName="CarRental.Users.Booking.API/Services/UserService.cs" Line="10" Column="53" />
+      <File FileName="CarRental.Users.Booking.API/Services/AdminService.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Services/ICacheService.cs" Line="15" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Services/InMemoryCacheService.cs" Line="12" Column="60" />
+      <File FileName="CarRental.Users.Booking.API/Startup.cs" Line="21" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Controllers/AdminBookingController.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Controllers/IdentityController.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/appsettings.json" Line="2" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Services/RedisCacheService.cs" Line="20" Column="22" />
+      <File FileName="CarRental.Users.Booking.API/Services/IUserService.cs" Line="3" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Models/BookingForm.cs" Line="20" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Dtos.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarRental.Users.Booking.API" expanded="True" selected="True" />
+          <Node name="CarRental.Users.Booking.API">
+            <Node name="CarRental.Users.Booking.API" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Configurations" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CarRental.Users.Booking.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>CarRental.Tests.Unit/CarRental.Tests.Unit.csproj</String>
+  </DisabledProjects>
+  <MultiItemStartupConfigurations />
 </Properties>

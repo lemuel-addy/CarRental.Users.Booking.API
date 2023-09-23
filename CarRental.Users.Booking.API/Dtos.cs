@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using CarRental.Users.Booking.API.Models;
 
 namespace CarRental.Users.Booking.API.Dtos;
 
@@ -10,7 +11,9 @@ public record UserDto
         string Username,
         string Contacts,
         string Email,
-        string Password
+        string Password,
+        Role Role
+
 
     );
 
@@ -19,7 +22,9 @@ public record CreateUserDto
         [Required] string Username,
         [Required][StringLength(10)] string Contacts,
         [Required][Url] string Email,
-        [Required(ErrorMessage = "Password is required")][StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters long")] [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$", ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character")] string Password
+        [Required(ErrorMessage = "Password is required")][StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters long")] [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$", ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character")] string Password,
+        [Required] Role Role
+
 
 
     );
@@ -29,7 +34,9 @@ public record UpdateUserDto
         [Required] string Username,
         [Required][StringLength(10)] string Contacts,
         [Required][Url] string Email,
-        [Required(ErrorMessage = "Password is required")][StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters long")][RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$", ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character")] string Password
+        [Required(ErrorMessage = "Password is required")][StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters long")][RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$", ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character")] string Password,
+        [Required] Role Role
+
     );
 
 public record BookingsDto

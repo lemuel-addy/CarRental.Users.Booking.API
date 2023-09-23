@@ -32,7 +32,11 @@ namespace CarRental.Users.Booking.API.Services
 
         }
 
-
+        /// <summary>
+        /// Updates a car booking in the database
+        /// </summary>
+        /// <param name="updatedBookings">The bookings which will update the prior</param>
+        /// <returns>Does not return anything</returns>
         public async Task UpdateBookingAsync(Bookings updatedBookings)
         {
             dbContext.Update(updatedBookings);

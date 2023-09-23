@@ -1,15 +1,19 @@
 ﻿using System;
+using System.Data;
 using CarRental.Users.Booking.API.Data;
 using CarRental.Users.Booking.API.Dtos;
 using CarRental.Users.Booking.API.Models;
 using CarRental.Users.Booking.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarRental.Users.Booking.API.Controllers
 {
+
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [Route("api/booking")]
-    public class AdminBookingController:Controller
-	{
+    public class AdminBookingController : Controller
+    {
         private readonly ILogger<AdminBookingController> _logger;
         private readonly CarRentalContext _carRentalContext;
         private readonly IAdminService _adminService;
@@ -20,6 +24,7 @@ namespace CarRental.Users.Booking.API.Controllers
             _adminService = adminService;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet("/admin/")]
         public async Task<IResult> Get()
         {
