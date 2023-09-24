@@ -24,8 +24,7 @@ The API provides the following endpoints:
 
 <img width="1436" alt="Screenshot 2023-09-24 at 10 16 04 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/0c10232b-2d0c-416d-8e52-df70853fbafa">
 
-<img width="1436" alt="Screenshot 2023-09-24 at 10 16 15 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/56839954-87cd-46e5-a5c4-5d4715f87b39">
-
+<img width="1436" alt="Screenshot 2023-09-24 at 10 20 52 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/12926c79-a75a-4313-a2ab-b6f7f13a9a0c">
 
 ## Authentication and Authorization
 This API uses JWT (JSON Web Token) for authentication. Users are required to include their JWT token in the Authorization header of each protected request using the Bearer scheme.
