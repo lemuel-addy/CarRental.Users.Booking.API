@@ -2,8 +2,8 @@
 
 # ASP.NET Core 7 API - Car Rental Booking System
 This ASP.NET Core application API project implements a Car Rental Booking system which allows Admins to create bookings for renting cars and allow Users to book cars which are available to rent out. 
-The API provides various endpoints for users to sign up, authenticate, view all their booking forms, create and delete booking forms, as well as update their previous booking forms. 
-Endpoints are also provided for admins with authorization to sign up, authenticate, view all available bookings, create and delete these bookings, as well as update available car bookings.
+The API provides various endpoints for Users to sign up, authenticate, view all their booking forms, create and delete booking forms, as well as update their previous booking forms. 
+Endpoints are also provided for Admins to sign up, authenticate, view all available bookings, create and delete these bookings, as well as update available car bookings.
 The project is built using modern best practices and technologies, including JWT authentication for secure user login and caching with Redis for enhanced speed and reduced downtime.
 
 ## Getting Started
@@ -22,9 +22,14 @@ The API provides the following endpoints:
 
 <img width="1436" alt="Screenshot 2023-09-24 at 10 15 54 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/e569c10a-83c7-4473-8510-c0665add900f">
 
+These allow Admins to get all bookings, get booking by id, as well as create, update, and delete bookings.
+These endpoints require Admin role authorization using JWT authentication claims.
+
 <img width="1436" alt="Screenshot 2023-09-24 at 10 16 04 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/0c10232b-2d0c-416d-8e52-df70853fbafa">
+These endpoints allow both Users and Admins to sign up and login with authentication using JWT bearer token.
 
 <img width="1436" alt="Screenshot 2023-09-24 at 10 20 52 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/12926c79-a75a-4313-a2ab-b6f7f13a9a0c">
+These allow Users to get all book forms, get book form by id, as well as create, update, and delete book forms.
 
 ## Authentication and Authorization
 This API uses JWT (JSON Web Token) for authentication. Users are required to include their JWT token in the Authorization header of each protected request using the Bearer scheme.
