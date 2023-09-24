@@ -29,7 +29,7 @@ These endpoints require Admin role authorization using JWT authentication claims
 These endpoints allow both Users and Admins to sign up and login with authentication using JWT bearer token.
 
 <img width="1436" alt="Screenshot 2023-09-24 at 10 20 52 AM" src="https://github.com/lemuel-addy/CarRental.Users.Booking.API/assets/98181554/12926c79-a75a-4313-a2ab-b6f7f13a9a0c">
-These allow Users to get all book forms, get book form by id, as well as create, update, and delete book forms.
+These allow Users to get all forms, get form by id, as well as create, update, and delete forms.
 
 ## Authentication and Authorization
 This API uses JWT (JSON Web Token) for authentication. Users are required to include their JWT token in the Authorization header of each protected request using the Bearer scheme.
