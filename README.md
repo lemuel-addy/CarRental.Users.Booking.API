@@ -9,7 +9,7 @@ The project is built using modern best practices and technologies, including JWT
 ## Getting Started
 To run the project locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/lemuel-addy/CarRental.Users.Booking.API
+1. Clone the repository: git clone https://github.com/lemuel-addy/CarRental.Users.Booking.API.git
 2. Navigate to the project directory: cd CarRental.Users.Booking.API
 3. Restore the project dependencies: dotnet restore
 4. Update the database connection string in the appsettings.json file.
