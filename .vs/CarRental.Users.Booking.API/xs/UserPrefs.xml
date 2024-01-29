@@ -1,37 +1,51 @@
 ﻿<Properties StartupConfiguration="{7684BE04-7212-4F30-850B-0F35C7F7901C}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CarRental.Users.Booking.API/Controllers/UserBookingController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarRental.Users.Booking.API/Controllers/AdminBookingController.cs">
     <Files>
-      <File FileName="CarRental.Users.Booking.API/Program.cs" Line="22" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Controllers/UserBookingController.cs" Line="74" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Services/UserAccountService.cs" Line="36" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Models/User.cs" Line="1" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Models/Role.cs" Line="7" Column="9" />
-      <File FileName="CarRental.Users.Booking.API/Services/UserService.cs" Line="10" Column="53" />
-      <File FileName="CarRental.Users.Booking.API/Services/AdminService.cs" Line="1" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Services/ICacheService.cs" Line="15" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Services/InMemoryCacheService.cs" Line="12" Column="60" />
-      <File FileName="CarRental.Users.Booking.API/Startup.cs" Line="21" Column="1" />
       <File FileName="CarRental.Users.Booking.API/Controllers/AdminBookingController.cs" Line="1" Column="1" />
       <File FileName="CarRental.Users.Booking.API/Controllers/IdentityController.cs" Line="1" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/appsettings.json" Line="2" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Services/RedisCacheService.cs" Line="20" Column="22" />
-      <File FileName="CarRental.Users.Booking.API/Services/IUserService.cs" Line="3" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Models/BookingForm.cs" Line="20" Column="1" />
-      <File FileName="CarRental.Users.Booking.API/Dtos.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Services/UserAccountService.cs" Line="58" Column="14" />
+      <File FileName="CarRental.Users.Booking.API/Services/IUserAccountService.cs" />
+      <File FileName="CarRental.Users.Booking.API/Services/IUserService.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Program.cs" />
+      <File FileName="CarRental.Users.Booking.API/Services/AuthenticationService.cs" />
+      <File FileName="CarRental.Users.Booking.API/Services/IAuthenticationService.cs" />
+      <File FileName="CarRental.Users.Booking.API/Services/ICacheService.cs" />
+      <File FileName="CarRental.Users.Booking.API/Controllers/UserBookingController.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Models/BookingForm.cs" Line="21" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Models/BookingFormExtensions.cs" />
+      <File FileName="CarRental.Users.Booking.API/Models/Bookings.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Models/BookingsExtensions.cs" />
+      <File FileName="CarRental.Users.Booking.API/Models/Role.cs" />
+      <File FileName="CarRental.Users.Booking.API/Models/User.cs" Line="23" Column="39" />
+      <File FileName="CarRental.Users.Booking.API/Models/UserExtensions.cs" Line="1" Column="1" />
+      <File FileName="CarRental.Users.Booking.API/Startup.cs" />
+      <File FileName="CarRental.Users.Booking.API/appsettings.json" />
+      <File FileName="CarRental.Users.Booking.API/Dtos.cs" />
+      <File FileName="CarRental.Users.Booking.API/Services/IAdminService.cs" />
+      <File FileName="CarRental.Users.Booking.API/Services/RedisCacheService.cs" Line="14" Column="53" />
+      <File FileName="CarRental.Users.Booking.API/Services/AdminService.cs" Line="44" Column="10" />
+      <File FileName="CarRental.Users.Booking.API/Models/BearerTokenConfig.cs" />
+      <File FileName="CarRental.Users.Booking.API/Properties/launchSettings.json" />
+      <File FileName="CarRental.Users.Booking.API/Services/UserService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarRental.Users.Booking.API">
             <Node name="CarRental.Users.Booking.API" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Configurations" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="AdminBookingController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -39,12 +53,11 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CarRental.Users.Booking.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <DisabledProjects>
     <String>CarRental.Tests.Unit/CarRental.Tests.Unit.csproj</String>
   </DisabledProjects>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
